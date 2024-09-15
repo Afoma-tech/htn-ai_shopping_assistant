@@ -1,10 +1,12 @@
 html {
-    background: #F0F0F0;
+    background: #FFFFFF;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    color: #404040;
+    color: #D030A0;
+}
+
+body {
     margin: 0;
-    padding: 0;
 }
 
 h1 {
@@ -35,11 +37,13 @@ input:hover {
 }
 
 .navbar {
-    background: #E0E0E0;
-    height: 100px;
+    background: #FFFFFF;
+    height: 60px;
     padding: 0;
     width: 100%;
     box-sizing: border-box;
+    z-index: 1000;
+    border-bottom: 1px solid black;
 }
 
 .navbar .container {
@@ -47,5 +51,22 @@ input:hover {
 }
 
 .nav-links li::marker {
-    color: #E0E0E0;
+    color: #FFFFFF;
+}
+
+.nav-links li {
+    padding: 0px;
+}
+
+.nav-links {
+    margin: 0;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    padding-top: 10px;
+    margin: 0;
+    font-style: italic;
 }
